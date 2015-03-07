@@ -12,6 +12,9 @@ public:
     ~MainWindow();
 private:
     WebBrowser *browser_;
+
+    QAction * copiar_;
+    QAction * seleccionarTodo_;
 };
 
 #endif // MAINWINDOW_H
